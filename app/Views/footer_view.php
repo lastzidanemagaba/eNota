@@ -7,20 +7,26 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.2.0/min/dropzone.min.js"></script>
     <script src="<?php echo base_url().'/assets/js/jquery-3.3.1.js'?>" type="text/javascript"></script>
-<script src="<?php echo base_url().'/assets/js/bootstrap.js'?>" type="text/javascript"></script>
-<script src="<?php echo base_url().'/assets/js/jquery-ui.js';?>" type="text/javascript"></script>
+    <script src="<?php echo base_url().'/assets/js/bootstrap.js'?>" type="text/javascript"></script>
+    <script src="<?php echo base_url().'/assets/js/jquery-ui.js';?>" type="text/javascript"></script>
+
+    <script src="<?php echo base_url('js/jquery-ui.min.js'); ?>"></script>
+    <script src="<?php echo base_url('js/jquery-ui.js'); ?>"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-
-		    $('#title').autocomplete({
+            $(function() {
+                $("#dobx").datepicker();
+            });
+		    $('#namacustomer').autocomplete({
                 source: "<?= base_url('barang/get_autocomplete');?>",
      
                 select: function (event, ui) {
                     $('[name="title"]').val(ui.item.label); 
                 }
             });
-
+            $("#dob").datepicker();
 		});
+        
 	</script>
   </body>
 </html>

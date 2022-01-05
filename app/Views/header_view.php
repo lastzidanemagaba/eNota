@@ -9,12 +9,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo base_url().'/assets/css/bootstrap.css'?>">
 	<link rel="stylesheet" href="<?php echo base_url().'/assets/css/jquery-ui.css'?>">
+  <link type="text/css" rel="stylesheet" href="<?php echo base_url('css/jquery-ui.css'); ?>" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-info">
         <div class="container">
-            <a class="navbar-brand" href="<?= base_url();?>">A S N</a>
+            <a class="navbar-brand" href="<?= base_url();?>">Monolog</a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation"></button>
         </div>
