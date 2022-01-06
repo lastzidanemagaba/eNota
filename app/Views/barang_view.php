@@ -17,7 +17,7 @@
                             <th>Nama Barang</th>
                             <th>Jumlah Barang</th>
                             <th>Harga Barang</th>
-                            <th>Total Harga Barang</th>
+
                             <th>Aksi</th>
                         </tr> 
                     </thead>
@@ -26,19 +26,18 @@
                         <?php $no=1; foreach($getBarang as $isi){?>
                             <tr>
                                 <td><?= $no;?></td>
-                                <td><?= $isi['namacustomer'];?></td>
-                                <td><?= $isi['namacustomer'];?></td>
-                                <td><?= $isi['nohp'];?></td>
-                                <td><?= $isi['alamat'];?></td>
-                                <td><?= $isi['nama_barang'];?></td>
-                                <td><?= $isi['jumlahbarang'];?></td>
-                                <td>Rp <?= number_format($isi['hargabarang']);?>,-</td>
+                                <td><?= $isi['namabarang'];?></td>
+                                <td><?= $isi['sale_nama'];?></td>
+                                <td><?= $isi['sale_hp'];?></td>
+                                <td><?= $isi['sale_alamat'];?></td>
+                                <td><?= $isi['namabarang'];?></td>
                                 <td>Rp <?= number_format($isi['jumlahbarang']*$isi['hargabarang']);?>,-</td>
+                                <td>Rp <?= number_format($isi['hargabarang']);?>,-</td>
                                 <td>
-                                    <a href="<?= base_url('barang/edit/'.$isi['id_barang']);?>" 
+                                    <a href="<?= base_url('barang/edit/'.$isi['sale_id']);?>" 
                                     class="btn btn-success">
-                                    View</a>
-                                    <a href="<?= base_url('barang/hapus/'.$isi['id_barang']);?>" 
+                                    Invoice</a>
+                                    <a href="<?= base_url('barang/hapus/'.$isi['sale_id']);?>" 
                                     onclick="javascript:return confirm('Apakah ingin menghapus data barang ?')"
                                     class="btn btn-danger">
                                     Hapus</a>

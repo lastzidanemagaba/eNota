@@ -15,16 +15,17 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
             $(function() {
-                $("#dobx").datepicker();
+                $("#sale_tgl").datepicker();
+                $("#sale_kirim_tgl").datepicker();
             });
-		    $('#namacustomer').autocomplete({
+		    $('#sale_nama').autocomplete({
                 source: "<?= base_url('barang/get_autocomplete');?>",
      
                 select: function (event, ui) {
                     $('[name="title"]').val(ui.item.label); 
                 }
             });
-            $("#dob").datepicker();
+            $("#sale_dp_tgl").datepicker();
 		});
         
 	</script>

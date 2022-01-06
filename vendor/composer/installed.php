@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '7946f7242814e7be24f9080cd2cee2d8185455e4',
         'name' => 'codeigniter4/appstarter',
         'dev' => true,
     ),
     'versions' => array(
         'codeigniter4/appstarter' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '7946f7242814e7be24f9080cd2cee2d8185455e4',
             'dev_requirement' => false,
         ),
         'codeigniter4/framework' => array(
@@ -113,12 +113,12 @@
             'dev_requirement' => true,
         ),
         'phpdocumentor/type-resolver' => array(
-            'pretty_version' => '1.5.1',
-            'version' => '1.5.1.0',
+            'pretty_version' => '1.6.0',
+            'version' => '1.6.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpdocumentor/type-resolver',
             'aliases' => array(),
-            'reference' => 'a12f7e301eb7258bb68acd89d4aefa05c2906cae',
+            'reference' => '93ebd0014cab80c4ea9f5e297ea48672f1b87706',
             'dev_requirement' => true,
         ),
         'phpspec/prophecy' => array(
@@ -302,12 +302,12 @@
             'dev_requirement' => true,
         ),
         'symfony/polyfill-ctype' => array(
-            'pretty_version' => 'v1.23.0',
-            'version' => '1.23.0.0',
+            'pretty_version' => 'v1.24.0',
+            'version' => '1.24.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/polyfill-ctype',
             'aliases' => array(),
-            'reference' => '46cd95797e9df938fdd2b03693b5fca5e64b01ce',
+            'reference' => '30885182c981ab175d4d034db0f6f469898070ab',
             'dev_requirement' => true,
         ),
         'tecnickcom/tcpdf' => array(

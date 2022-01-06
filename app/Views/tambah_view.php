@@ -16,55 +16,63 @@
                 <hr>
                 <div class="form-group">
                     <label for="">Nama Customer</label>
-                    <input type="text" name="namacustomer" class="form-control basicAutoComplete" id="namacustomer" autocomplete="off">
+                    <input type="text" name="sale_nama" class="form-control basicAutoComplete" id="sale_nama" autocomplete="off">
                 </div>
                 <div class="form-group">
                     <label for="">No Hp</label>
-                    <input type="number" name="nohp" class="form-control" required>
+                    <input type="number" name="sale_hp" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="">Alamat</label>
-                    <input type="text" name="alamat" class="form-control" required>
+                    <input type="text" name="sale_alamat" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Deskripsi</label>
+                    <input type="text" name="sale_deskripsi" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Tgl</label>
+					<input type="text" name="sale_tgl" id="sale_tgl" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="">Nama Barang</label>
-                    <input type="text" name="nama_barang" class="form-control" required>
+                    <input type="text" name="namabarang" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Harga Barang</label>
+                    <input type="text" name="hargabarang" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="">Jumlah Barang</label>
                     <input type="number" name="jumlahbarang" class="form-control" required>
                 </div>
-                <div class="form-group">
-                    <label for="">Harga Barang</label>
-                    <input type="number" name="hargabarang" class="form-control" required>
-                </div>
                 <h4>DP Barang</h4>
                 <hr>
                 <div class="form-group">
                     <label for="">Nom</label>
-                    <input type="number" name="hargabarang" class="form-control" required>
+                    <input type="text" name="sale_dp_nom" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="">Via</label>
-                    <input type="number" name="hargabarang" class="form-control" required>
+                    <input type="text" name="sale_dp_via" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="">Tgl</label>
-                    <input type="text" name="dob" id="dob" class="form-control" required>
+                    <input type="text" name="sale_dp_tgl" id="sale_dp_tgl" class="form-control" required>
                 </div>
                 <h4>Ongkir</h4>
                 <hr>
                 <div class="form-group">
                     <label for="">Nom</label>
-                    <input type="number" name="hargabarang" class="form-control" required>
+                    <input type="text" name="sale_kirim_nom" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="">Via</label>
-                    <input type="number" name="hargabarang" class="form-control" required>
+                    <input type="text" name="sale_kirim_via" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="">Tgl</label>
-                    <input type="text" name="dobx" id="dobx" class="form-control" required>
+                    <input type="text" name="sale_kirim_tgl" id="sale_kirim_tgl" class="form-control" required>
                 </div>
                 <button class="btn btn-success">Tambah Data</button>
             </form>
